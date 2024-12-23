@@ -40,5 +40,5 @@ Contributions are what make the open source community such an amazing place to l
 
 Your Name - [konbarbou@gmail.com](mailto:konbarbou@gmail.com)
 
-Project Link: [https://github.com/yourusername/hospital-management-system](https://github.com/yourusername/hospital-management-system)
+Project Link: [https://github.com/KostasBar/HospitalManagmentSystem](https://github.com/KostasBar/HospitalManagmentSystem)
 
