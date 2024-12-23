@@ -1,0 +1,44 @@
+[
+  {
+    "Pid": 1,
+    "Condition": "Hypertension",
+    "Recommended_substance": "Lisinopril",
+    "Recommended_dose": "10 mg once daily"
+  },
+  {
+    "Pid": 2,
+    "Condition": "Diabetes Type 2",
+    "Recommended_substance": "Metformin",
+    "Recommended_dose": "500 mg twice daily"
+  },
+  {
+    "Pid": 3,
+    "Condition": "Asthma",
+    "Recommended_substance": "Fluticasone",
+    "Recommended_dose": "Two inhalations twice daily"
+  },
+  {
+    "Pid": 4,
+    "Condition": "Chronic Pain",
+    "Recommended_substance": "Ibuprofen",
+    "Recommended_dose": "400 mg every 4-6 hours as needed"
+  },
+  {
+    "Pid": 5,
+    "Condition": "Anxiety",
+    "Recommended_substance": "Sertraline",
+    "Recommended_dose": "50 mg daily"
+  },
+  {
+    "Pid": 6,
+    "Condition": "High Cholesterol",
+    "Recommended_substance": "Atorvastatin",
+    "Recommended_dose": "20 mg daily"
+  },
+  {
+    "Pid": 7,
+    "Condition": "Hypothyroidism",
+    "Recommended_substance": "Levothyroxine",
+    "Recommended_dose": "100 mcg daily"
+  }
+]

@@ -1,0 +1,35 @@
+﻿<Window x:Class="TestWPFApp.DrugWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWPFApp"
+        mc:Ignorable="d"
+        Title="Conditions" Height="500" Width="650" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="ConditionsGrid" Background="#FFB0CECE">
+        <!-- Define rows in the grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Button aligned to the right, top of the first row -->
+        <Button Command="{Binding GetDataCommand}" Content="Load Data" HorizontalAlignment="Right" VerticalAlignment="Top" Height="60" Width="100" Margin="10"/>
+
+        <DataGrid x:Name="PrescriptionData" AutoGenerateColumns="False" Margin="10" 
+                  BorderBrush="DarkGray" BorderThickness="2" CanUserResizeColumns="True" 
+                  Grid.Row="1" AlternatingRowBackground="#FFB0CECE" ItemsSource="{Binding Prescriptions}">
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" Handler="RowDoubleClick"/>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Pid}" Width="*" />
+                <DataGridTextColumn Header="Condition" Binding="{Binding Condition}" Width="*"/>
+                <DataGridTextColumn Header="Recommended Substance" Binding="{Binding Recommended_substance}" Width="*" Visibility="Hidden"/>
+                <DataGridTextColumn Header="Recommended Dose" Binding="{Binding Recommended_dose}" Width="*" Visibility="Hidden"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

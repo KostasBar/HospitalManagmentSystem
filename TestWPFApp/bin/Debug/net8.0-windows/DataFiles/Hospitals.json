@@ -1,0 +1,122 @@
+[
+  {
+    "HospitalId": 1,
+    "HospitalName": "Saint Health Medical Center",
+    "Address": "1234 Wellness Blvd, Health City, HC 56789",
+    "Specialization": {
+      "Pid": 1,
+      "Condition": "Hypertension",
+      "Recommended_substance": "Lisinopril",
+      "Recommended_dose": "10 mg once daily"
+    },
+    "SpecialDoctor": "Dr. Harriet Maxwell"
+  },
+  {
+    "HospitalId": 2,
+    "HospitalName": "CareWell Hospital",
+    "Address": "5678 Care Ave, MediTown, MT 12345",
+    "Specialization": {
+      "Pid": 2,
+      "Condition": "Diabetes Type 2",
+      "Recommended_substance": "Metformin",
+      "Recommended_dose": "500 mg twice daily"
+    },
+    "SpecialDoctor": "Dr. Leonard McCoy"
+  },
+  {
+    "HospitalId": 3,
+    "HospitalName": "Healers Institute",
+    "Address": "9101 Recovery Path, Cure City, CC 23456",
+    "Specialization": {
+      "Pid": 3,
+      "Condition": "Asthma",
+      "Recommended_substance": "Fluticasone",
+      "Recommended_dose": "Two inhalations twice daily"
+    },
+    "SpecialDoctor": "Dr. Amy Pond"
+  },
+  {
+    "HospitalId": 4,
+    "HospitalName": "Rapid Recovery Clinic",
+    "Address": "2345 Quick Heal St, Fast City, FC 67890",
+    "Specialization": {
+      "Pid": 4,
+      "Condition": "Chronic Pain",
+      "Recommended_substance": "Ibuprofen",
+      "Recommended_dose": "400 mg every 4-6 hours as needed"
+    },
+    "SpecialDoctor": "Dr. John Smith"
+  },
+  {
+    "HospitalId": 5,
+    "HospitalName": "Tranquil Wellness Center",
+    "Address": "3456 Peaceful Way, Serene Town, ST 78901",
+    "Specialization": {
+      "Pid": 5,
+      "Condition": "Anxiety",
+      "Recommended_substance": "Sertraline",
+      "Recommended_dose": "50 mg daily"
+    },
+    "SpecialDoctor": "Dr. River Song"
+  },
+  {
+    "HospitalId": 6,
+    "HospitalName": "Future Care Facility",
+    "Address": "7890 New Hope Rd, Progress City, PC 10101",
+    "Specialization": {
+      "Pid": 6,
+      "Condition": "High Cholesterol",
+      "Recommended_substance": "Atorvastatin",
+      "Recommended_dose": "20 mg daily"
+    },
+    "SpecialDoctor": "Dr. Clara Oswald"
+  },
+  {
+    "HospitalId": 7,
+    "HospitalName": "Urban Medical Point",
+    "Address": "3210 City Center Blvd, Metro Polis, MP 20202",
+    "Specialization": {
+      "Pid": 7,
+      "Condition": "Hypothyroidism",
+      "Recommended_substance": "Levothyroxine",
+      "Recommended_dose": "100 mcg daily"
+    },
+    "SpecialDoctor": "Dr. Bruce Banner"
+  },
+  {
+    "HospitalId": 8,
+    "HospitalName": "Suburban Health Complex",
+    "Address": "4567 Townline Rd, Suburb City, SC 30303",
+    "Specialization": {
+      "Pid": 1,
+      "Condition": "Hypertension",
+      "Recommended_substance": "Lisinopril",
+      "Recommended_dose": "10 mg once daily"
+    },
+    "SpecialDoctor": "Dr. Peter Parker"
+  },
+  {
+    "HospitalId": 9,
+    "HospitalName": "Coastline Medical Hub",
+    "Address": "8901 Ocean View Ave, Coastal Town, CT 40404",
+    "Specialization": {
+      "Pid": 5,
+      "Condition": "Anxiety",
+      "Recommended_substance": "Sertraline",
+      "Recommended_dose": "50 mg daily"
+    },
+    "SpecialDoctor": "Dr. Diana Prince"
+  },
+  {
+    "HospitalId": 10,
+    "HospitalName": "Highland Health Center",
+    "Address": "5678 Mountain Peak Way, Highland City, HC 50505",
+    "Specialization": {
+      "Pid": 7,
+      "Condition": "Hypothyroidism",
+      "Recommended_substance": "Levothyroxine",
+      "Recommended_dose": "100 mcg daily"
+    },
+    "SpecialDoctor": "Dr. Stephen Strange"
+  }
+]
