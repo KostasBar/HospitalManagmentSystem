@@ -68,3 +68,4 @@ C:\MarkDownEditor\TestWPFApp\TestWPFApp\obj\Debug\net8.0-windows\refint\TestWPFA
 C:\MarkDownEditor\TestWPFApp\TestWPFApp\obj\Debug\net8.0-windows\TestWPFApp.pdb
 C:\MarkDownEditor\TestWPFApp\TestWPFApp\obj\Debug\net8.0-windows\TestWPFApp.genruntimeconfig.cache
 C:\MarkDownEditor\TestWPFApp\TestWPFApp\obj\Debug\net8.0-windows\ref\TestWPFApp.dll
+C:\MarkDownEditor\TestWPFApp\TestWPFApp\obj\Debug\net8.0-windows\TestWPFApp.sourcelink.json

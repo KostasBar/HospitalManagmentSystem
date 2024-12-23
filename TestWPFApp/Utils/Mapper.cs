@@ -22,6 +22,18 @@ namespace TestWPFApp.Utils
             patient.PatientFirstName = Firstname;
             patient.PatientLastName = Lastname;
 
+            if (Firstname is null || Firstname == "")
+            {
+                MessageBox.Show("Patient's firt name is mandatory!.");
+                return null;
+            }
+
+            if (Lastname is null || Lastname == "")
+            {
+                MessageBox.Show("Patient's last name is mandatory!.");
+                return null;
+            }
+
             if (Enum.TryParse(gender, true, out GenderType genderResult))
             {
                 patient.PatientGender = genderResult;
